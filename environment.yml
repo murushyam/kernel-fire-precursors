@@ -1,0 +1,17 @@
+name: kfp
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - xarray
+  - dask
+  - netcdf4
+  - zarr
+  - pytest
+  - pip
+  - pip:
+      - -e .
+      # optional: - qiskit-machine-learning
